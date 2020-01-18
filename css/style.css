@@ -82,6 +82,10 @@ img{
   color: black;
 }
 
+.medium{
+  font-size: 25pt;
+}
+
 #footer {
     position: fixed;
     bottom: 0;
@@ -152,7 +156,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 300px;
+  width: 250px;
 }
 
 div.gallery:hover {
