@@ -73,6 +73,10 @@ img{
   background-color: brown;
 }
 
+.background-lavender{
+  background-color: #CABAC8
+}
+
 .small{
   font-size: 10pt;
   color: black;
@@ -142,4 +146,25 @@ img{
   height: 1000px;
   background-color: #cccccc;
   background-image: linear-gradient(#E70E02, #E89005);
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
